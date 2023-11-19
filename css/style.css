@@ -1,0 +1,336 @@
+
+form#paiement ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#paiement ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+ font-family:'font1';
+ src: url("../fonts/font.otf");
+}
+@font-face {
+ font-family:'font2';
+ src: url("../fonts/myfont.ttf");
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+#screen{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	background: url(../images/R.jpg);
+	background-color: rgb( rgba(255, 0, 0, 0.3););
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0;
+	margin-top: -16px;
+	padding: 0;
+	height:76vh;
+}
+.bg h1{
+	text-align: center;
+	color: lavender;
+	font-size:40px;
+	font-family: font2;
+	font-weight: bold;
+	text-transform:uppercase;
+	transform: translateY(34vh);
+
+}
+.case1,.case2,.case3{
+
+}
+#ctc p{
+	text-align: center;
+	font-family: font1;
+	border:1px solid #000;
+	width: 100%;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.compte{
+	font-size: 10px;
+	font-family: font1;
+	float: left;
+	position: absolute;
+	top:90px;
+}
+.compte a{
+	color: #000;
+	padding: 15px;
+	padding-top:9px;
+	padding-bottom:9px;
+	transition: 0.3s all;
+	text-transform: uppercase;
+}
+.compte a:hover{
+	text-decoration: none;
+	background: lightsteelblue;
+	color:white;
+}
+.compte a:nth-child(0){
+	border-right: 1px solid blue;
+}
+.compte a:nth-child(1){
+	border-right: 1px solid blue;
+}
+.compte a:nth-child(2){
+	border-right: 1px solid blue;
+}
+.logo{
+
+}
+.logo h1{
+	color: #000;
+	font-size:40px;
+	font-family: font1;
+	text-transform: uppercase;
+	text-align: center;
+}
+.logo h1 a{
+		color: #000;
+}
+.logo a:hover{
+		text-decoration: none;
+		color: blue;
+}
+.icons{
+	top:90px;
+	position: absolute;
+	right: 100px;
+}
+.icons a{
+	color: #000;
+	margin-right:80px;
+	transition: 0.3s all;
+}
+.icons a:hover{
+	color: black;
+	background-color: aqua;
+}
+.panier{top:90px;
+	position: absolute;
+	right: -70px;
+
+}
+.panier a{
+	color: black;
+	margin-right:80px;
+	transition: 0.3s all;
+	size: 100;
+}
+.panier a:hover{
+	color: blue;
+
+}
+
+.aaa{ text-align: center;
+	margin-left:50px;
+    text-transform: uppercase;
+	color: black;
+	font-size: 15px;
+	font-family: font1;
+	text-decoration: none;
+}
+
+.menu{
+	text-align: right;
+
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	margin-left:-150px;
+
+    border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.menu ul li:nth-child(1){
+	margin-left: 20%;
+}
+.menu ul li {
+margin-left: 40px;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	color: black;
+	font-size: 15px;
+	font-family: font1;
+	text-decoration: none;
+	padding-bottom: 12px;
+	padding-top: 14px;
+	padding-left: 5px;
+	padding-right: 10px;
+	transition: 0.3s all;
+}
+.menu a:hover{
+	background-color: lightsteelblue;
+}
+#connectSection{
+	margin-top: 100px;
+}
+
+#maform{
+	text-align: center;
+}
+#inscrire{
+	text-align: center;
+	font-family: font1;
+}
+#inscrire h1{
+	font-size:50px;
+}
+#inscrire h1 span{
+	color: aqua;
+}
+#inscrire a{
+	margin-top: 100px;
+	color:#000;
+	text-decoration: none;
+		font-size:20px;
+	background: aqua;
+	font-family: font1;
+	border:0px;
+	padding:10px;
+	border-radius: 20px;
+	padding-left: 26px;
+	padding-right:26px;
+	transition: 0.3s all;
+}
+#inscrire a:hover{
+	color :aqua;
+background: #fff;
+cursor: pointer;
+border: 1px solid aqua;
+}
+.btnCon{
+	font-size:20px;
+	background: aqua;
+	font-family: font1;
+	border:0px;
+	padding:10px;
+	border-radius: 20px;
+	padding-left: 26px;
+	padding-right:26px;
+	transition: 0.3s all;
+}
+.btnCon:hover{
+color :aqua;
+background: #fff;
+cursor: pointer;
+border: 1px solid aqua;
+}
+#maform .txt{
+width:300px;
+text-align: center;
+padding:4px;
+padding-right: 22px;
+padding-left: 22px;
+font-family: font1;
+font-size: 20px;
+color: #000;
+border-radius: 20px;
+border:1px solid #000;
+}
+.menu ul li a:hover{
+	color: black;
+	background: aqua;
+}
+.adForm{
+	background: ivory;
+	text-align: center;
+	margin-top:200px;}
+.adForm input{
+	border-radius: 50px;
+	padding: 10px;
+	border: 5px solid rosybrown;
+}
+.sed {
+
+	margin-top:100px;
+}
+.sed .btn{
+	border-radius: 50px;
+}
+.admenu{
+	text-align: center;
+	height: 500vh;
+	background: aqua;
+	width:200%;
+	list-style: none;
+	position: center;
+}
+.admenu li{
+	margin-top:10px;
+	text-align: center;
+}
+.admenu li a{
+	color: #000;
+	text-transform: uppercase;
+	font-family: font1;
+	text-align: center;
+    text-decoration-style: all;
+	transition: 0.3s all;
+}
+.admenu li a:hover{
+	background: lightgreen;
+	padding: 10px;
+	padding-right: 8px;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.text{
+	text-align: center;
+	background: lightsteelblue;
+}
+.text a{
+	color: #fff;
+	text-decoration: none;
+}
+#cartImg{
+	width:50px;
+
+}
